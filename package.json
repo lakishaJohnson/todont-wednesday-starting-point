@@ -1,0 +1,24 @@
+{
+  "name": "todont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todont.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbreviatedman/todont.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbreviatedman/todont/issues"
+  },
+  "homepage": "https://github.com/abbreviatedman/todont#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  }
+}
