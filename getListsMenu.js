@@ -1,10 +1,9 @@
 const chalk = require("chalk");
-const lists = require("./lists");
+const lists = require("./app");
 
 function getListsMenu() {
-  const listsDisplay = lists
-    .map((list, i) => `${i + 1}. ${list.title}`)
-    .join("\n");
+  const listsDisplay = app.lists
+    .map((list, i) => `${i + 1}. ${list.title}`).join("\n");
 
   const menu = `${chalk.blue.bold(
     "Choose a list to view (by entering its number) or choose an option at the bottom (by letter):"
